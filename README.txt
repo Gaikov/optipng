@@ -1,6 +1,13 @@
 OptiPNG version 0.7.7: Advanced PNG optimizer
 =============================================
 
+Download for linux, unix
+-----------------------
+  Download OptiPNG linux executable binary:
+        https://github.com/Gaikov/optipng/blob/master/bin/optipng
+  - No dynamic linking libraries
+  - Portable version of optipng command line tool
+
 Copyright and licensing
 -----------------------
   Copyright (C) 2001-2017 Cosmin Truta and the Contributing Authors.
