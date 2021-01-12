@@ -391,7 +391,7 @@ sed_config="
     s|@CPP@|${CPP-\$(CC) -E}|g
     s|@CPPFLAGS@|${CPPFLAGS-}|g
     s|@LD@|${LD-\$(CC)}|g
-    s|@LDFLAGS@|${LDFLAGS--s}|g
+    s|@LDFLAGS@|${LDFLAGS--s -static}|g
     s|@AR@|${AR-ar}|g
     s|@ARFLAGS@|${ARFLAGS-cru}|g
     s|@RANLIB@|${RANLIB-ranlib}|g
